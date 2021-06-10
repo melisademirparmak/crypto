@@ -48,9 +48,12 @@ figure {
   margin: 0;
 }
 
-.header {
+.container {
   width: 1400px;
   margin: 0 auto;
+}
+
+.container .header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -63,7 +66,7 @@ figure {
   padding-top: 20px;
 }
 
-.header .logo {
+.container .header .logo {
   color: #fff;
   font-family: "Hammersmith One", sans-serif;
   font-size: 35px;
@@ -75,12 +78,12 @@ figure {
           align-items: center;
 }
 
-.header .logo i {
+.container .header .logo i {
   padding: 0 5px;
   font-size: 50px;
 }
 
-.header form input {
+.container .header form input {
   border: none;
   border-bottom: 1px solid #000;
   font-size: 16px;

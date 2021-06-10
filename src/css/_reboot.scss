@@ -1,8 +1,9 @@
+@import "variables";
 * {
   outline: none;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
-  background-color: #282c34;
+  background-color: $bg-color;
 }
 
 html,

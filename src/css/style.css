@@ -4,7 +4,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
-  background-color: #282c34;
+  background-color: #32363e;
 }
 
 html,
@@ -67,7 +67,6 @@ figure {
 }
 
 .container .header .logo {
-  color: #fff;
   font-family: "Hammersmith One", sans-serif;
   font-size: 35px;
   display: -webkit-box;
@@ -89,5 +88,83 @@ figure {
   font-size: 16px;
   width: 250px;
   height: 40px;
+}
+
+.coinsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.coinsContainer .cryptoCoin {
+  overflow: hidden;
+  text-align: center;
+  border-radius: 20px;
+  position: relative;
+  width: 500px;
+  height: 250px;
+  margin: 30px 20px;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.coinsContainer .cryptoCoin img {
+  width: 100px;
+  margin-right: 25px;
+}
+
+.coinsContainer .cryptoCoin .coinNameWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.coinsContainer .cryptoCoin .coinNameWrap .coinName {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+
+.coinsContainer .cryptoCoin .coinNameWrap .coinSymbol {
+  margin-bottom: 15px;
+}
+
+.coinsContainer .cryptoCoin .coinNameWrap .b-left {
+  border-right: 3px solid #000;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.coinsContainer .cryptoCoin div .flex-direction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100px;
+  height: 110px;
 }
 /*# sourceMappingURL=style.css.map */

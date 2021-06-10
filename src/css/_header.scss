@@ -1,0 +1,29 @@
+@import "variables";
+.header {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  .logo {
+    color: $white-color;
+    font-family: "Hammersmith One", sans-serif;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    i {
+      padding: 0 5px;
+      font-size: 50px;
+    }
+  }
+  form {
+    input {
+      border: none;
+      border-bottom: 1px solid #000;
+      font-size: 16px;
+      width: 250px;
+      height: 40px;
+    }
+  }
+}
